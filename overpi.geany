@@ -1,0 +1,50 @@
+[editor]
+line_wrapping=false
+line_break_column=72
+auto_continue_multiline=true
+
+[file_prefs]
+final_new_line=true
+ensure_convert_new_lines=false
+strip_trailing_spaces=false
+replace_tabs=false
+
+[indentation]
+indent_width=4
+indent_type=1
+indent_hard_tab_width=8
+detect_indent=true
+detect_indent_width=true
+indent_mode=2
+
+[project]
+name=overpi
+base_path=/home/raul/Projects/C/overpi/
+description=
+file_patterns=
+
+[long line marker]
+long_line_behaviour=1
+long_line_column=72
+
+[files]
+current_page=0
+FILE_NAME_0=2892;C++;0;EUTF-8;0;1;0;%2Fhome%2Fraul%2FProjects%2FC%2Foverpi%2Foverpi.cpp;0;4
+
+[VTE]
+last_dir=/home/raul
+
+[build-menu]
+C++FT_00_LB=_Compile
+C++FT_00_CM=g++ -std=c++11 -c overpi.cpp `pkg-config gtkmm-3.0 --cflags` -v
+C++FT_00_WD=
+C++FT_01_LB=_Build
+C++FT_01_CM=g++ -o overpi overpi.o `pkg-config gtkmm-3.0 --libs`
+C++FT_01_WD=
+C++FT_02_LB=_Lint
+C++FT_02_CM=cppcheck --language=c++ --enable=warning,style --template=gcc "%f"
+C++FT_02_WD=
+filetypes=C++;
+EX_00_LB=_Execute
+EX_00_CM=sudo "./%e"
+EX_00_WD=

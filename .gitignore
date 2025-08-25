@@ -1,0 +1,18 @@
+# Archivos objeto y ejecutables
+*.o
+*.out
+*.exe
+overpi
+
+# Archivos de respaldo
+*~
+*.bak
+
+# Directorios de build
+build/
+dist/
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
