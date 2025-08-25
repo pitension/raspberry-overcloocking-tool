@@ -117,10 +117,6 @@ msgstr "EXTREME PROFILE IS DANGEROUS:\n\n"
 "Are you absolutely sure to continue?"
 
 #: overpi.cpp:247
-msgid "Apply Hot"
-msgstr "Apply Hot"
-
-#: overpi.cpp:248
 msgid "Profile '%s' will be applied hot.\n\n"
 "⚠️ LIMITATIONS:\n"
 "- Only CPU frequency will be adjusted\n"
