@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Select language / Seleccionar idioma:"
 echo "1) English"
-echo "2) EspaÃ±ol"
+echo "2) Español"
 read -p "Choice [1-2]: " choice
 
 case $choice in
