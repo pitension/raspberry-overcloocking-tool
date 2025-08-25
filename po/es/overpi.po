@@ -1,0 +1,254 @@
+# Spanish translations for overpi package.
+# Copyright (C) 2024 THE overpi'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the overpi package.
+# Raul <pi.tension@gmail.com>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: overpi 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 12:00+0000\n"
+"PO-Revision-Date: 2024-01-01 12:00+0000\n"
+"Last-Translator: Raul <pi.tension@gmail.com>\n"
+"Language-Team: Spanish <pi.tension@gmail.com>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: overpi.cpp:85
+msgid "Profile:"
+msgstr "Perfil:"
+
+#: overpi.cpp:88
+msgid "Minimum"
+msgstr "Mínimo"
+
+#: overpi.cpp:89
+msgid "Normal"
+msgstr "Normal"
+
+#: overpi.cpp:90
+msgid "Moderate"
+msgstr "Moderado"
+
+#: overpi.cpp:91
+msgid "High"
+msgstr "Alto"
+
+#: overpi.cpp:92
+msgid "Extreme"
+msgstr "Extremo"
+
+#: overpi.cpp:94
+msgid "Apply Hot"
+msgstr "Aplicar en Caliente"
+
+#: overpi.cpp:95
+msgid "Apply Permanently"
+msgstr "Aplicar Permanentemente"
+
+#: overpi.cpp:96
+msgid "System Info"
+msgstr "Info del Sistema"
+
+#: overpi.cpp:99
+msgid "System Status"
+msgstr "Estado del Sistema"
+
+#: overpi.cpp:102
+msgid "Profile Description"
+msgstr "Descripción del Perfil"
+
+#: overpi.cpp:106
+msgid "⚠️ WARNING: EXTREME profiles can damage your hardware. Require active cooling."
+msgstr "⚠️ ADVERTENCIA: Los perfiles EXTREMO pueden dañar tu hardware. Requieren refrigeración activa."
+
+#: overpi.cpp:123
+msgid "RPi 400 Overclock Control - Hot Mode"
+msgstr "RPi 400 Control de Overclock - Modo en Caliente"
+
+#: overpi.cpp:175
+msgid "Minimum operation configuration\n- CPU: 600 MHz\n- GPU: 500 MHz\n- Overvoltage: 0\n- Force Turbo: 0"
+msgstr "Configuración mínima de funcionamiento\n- CPU: 600 MHz\n- GPU: 500 MHz\n- Overvoltage: 0\n- Force Turbo: 0"
+
+#: overpi.cpp:185
+msgid "Factory default configuration\n- CPU: 1800 MHz\n- GPU: 500 MHz\n- Overvoltage: 0\n- Force Turbo: 0"
+msgstr "Configuración estándar de fábrica\n- CPU: 1800 MHz\n- GPU: 500 MHz\n- Overvoltage: 0\n- Force Turbo: 0"
+
+#: overpi.cpp:195
+msgid "Slight performance increase\n- CPU: 1900 MHz\n- GPU: 550 MHz\n- Overvoltage: 2\n- Force Turbo: 0"
+msgstr "Ligero aumento de rendimiento\n- CPU: 1900 MHz\n- GPU: 550 MHz\n- Overvoltage: 2\n- Force Turbo: 0"
+
+#: overpi.cpp:205
+msgid "Improved performance\n- CPU: 2000 MHz\n- GPU: 600 MHz\n- Overvoltage: 4\n- Force Turbo: 0"
+msgstr "Rendimiento mejorado\n- CPU: 2000 MHz\n- GPU: 600 MHz\n- Overvoltage: 4\n- Force Turbo: 0"
+
+#: overpi.cpp:215
+msgid "Maximum performance (dangerous)\n- CPU: 2200 MHz\n- GPU: 750 MHz\n- Overvoltage: 8\n- Force Turbo: 0\n\n⚠️ REQUIRES GOOD COOLING"
+msgstr "Máximo rendimiento (peligroso)\n- CPU: 2200 MHz\n- GPU: 750 MHz\n- Overvoltage: 8\n- Force Turbo: 0\n\n⚠️ REQUIERE BUENA REFRIGERACIÓN"
+
+#: overpi.cpp:225
+msgid "Current profile: "
+msgstr "Perfil actual: "
+
+#: overpi.cpp:235
+msgid "⚠️ DANGER - EXTREME OVERCLOCK"
+msgstr "⚠️ PELIGRO - OVERCLOCK EXTREMO"
+
+#: overpi.cpp:236
+msgid "EXTREME PROFILE IS DANGEROUS:\n\n"
+"• Can permanently damage your Raspberry Pi\n"
+"• Generates very high temperatures\n"
+"• Requires excellent active cooling\n"
+"• Void warranty permanently\n\n"
+"Are you absolutely sure to continue?"
+msgstr "EL PERFIL EXTREMO ES PELIGROSO:\n\n"
+"• Puede dañar permanentemente tu Raspberry Pi\n"
+"• Genera temperaturas muy altas\n"
+"• Requiere refrigeración activa excelente\n"
+"• Anula la garantía definitivamente\n\n"
+"¿Estás absolutamente seguro de continuar?"
+
+#: overpi.cpp:247
+msgid "Apply Hot"
+msgstr "Aplicar en Caliente"
+
+#: overpi.cpp:248
+msgid "Profile '%s' will be applied hot.\n\n"
+"⚠️ LIMITATIONS:\n"
+"- Only CPU frequency will be adjusted\n"
+"- Overvoltage and GPU require permanent application\n"
+"- Changes will be lost on reboot\n\n"
+"Do you want to continue?"
+msgstr "Se aplicará el perfil '%s' en caliente.\n\n"
+"⚠️ LIMITACIONES:\n"
+"- Solo se ajustará la frecuencia CPU\n"
+"- Overvoltage y GPU requieren aplicación permanente\n"
+"- Los cambios se perderán al reiniciar\n\n"
+"¿Deseas continuar?"
+
+#: overpi.cpp:261
+msgid "Confirm Permanent Change"
+msgstr "Confirmar Cambio Permanente"
+
+#: overpi.cpp:262
+msgid "Are you sure to apply profile '%s' permanently?\n\n"
+"This will modify the system configuration file and include:\n"
+"- CPU: %s MHz\n"
+"- GPU: %s MHz\n"
+"- Overvoltage: %s\n"
+"- Force Turbo: %s\n\n"
+"⚠️ WILL REQUIRE REBOOT to apply all changes."
+msgstr "¿Estás seguro de aplicar el perfil '%s' permanentemente?\n\n"
+"Esto modificará el archivo de configuración del sistema e incluirá:\n"
+"- CPU: %s MHz\n"
+"- GPU: %s MHz\n"
+"- Overvoltage: %s\n"
+"- Force Turbo: %s\n\n"
+"⚠️ REQUERIRÁ REINICIAR para aplicar todos los cambios."
+
+#: overpi.cpp:280
+msgid "=== SYSTEM INFORMATION ==="
+msgstr "=== INFORMACIÓN DEL SISTEMA ==="
+
+#: overpi.cpp:317
+msgid "System Information"
+msgstr "Información del Sistema"
+
+#: overpi.cpp:325
+msgid "CPU Temperature: "
+msgstr "Temperatura CPU: "
+
+#: overpi.cpp:325
+msgid "N/A"
+msgstr "N/A"
+
+#: overpi.cpp:337
+msgid "CPU Frequency: "
+msgstr "Frecuencia CPU: "
+
+#: overpi.cpp:349
+msgid "GPU Frequency: "
+msgstr "Frecuencia GPU: "
+
+#: overpi.cpp:361
+msgid "CPU Governor: "
+msgstr "Governor CPU: "
+
+#: overpi.cpp:369
+msgid "Status: "
+msgstr "Estado: "
+
+#: overpi.cpp:371
+msgid "Details: "
+msgstr "Detalles: "
+
+#: overpi.cpp:390
+msgid "Error"
+msgstr "Error"
+
+#: overpi.cpp:391
+msgid "Could not change governor to performance.\nMake sure 'cpufrequtils' is installed and you have root permissions."
+msgstr "No se pudo cambiar el governor a performance.\nAsegúrate de tener instalado 'cpufrequtils' y permisos de root."
+
+#: overpi.cpp:399
+msgid "Could not adjust CPU frequency.\nMake sure 'cpufrequtils' is installed and you have root permissions."
+msgstr "No se pudo ajustar la frecuencia CPU.\nAsegúrate de tener instalado 'cpufrequtils' y permisos de root."
+
+#: overpi.cpp:409
+msgid "Partial Success"
+msgstr "Éxito Parcial"
+
+#: overpi.cpp:410
+msgid "Profile %s partially applied hot.\n\n"
+"✅ CPU frequency adjusted correctly\n"
+"⚠️ Overvoltage and GPU not applied (require reboot)\n"
+"⚠️ Changes will be lost on reboot"
+msgstr "Perfil %s aplicado parcialmente en caliente.\n\n"
+"✅ Frecuencia CPU ajustada correctamente\n"
+"⚠️ Overvoltage y GPU no se aplicaron (requieren reinicio)\n"
+"⚠️ Los cambios se perderán al reiniciar"
+
+#: overpi.cpp:420
+msgid "An error occurred while applying the profile: %s"
+msgstr "Ocurrió un error al aplicar el perfil: %s"
+
+#: overpi.cpp:450
+msgid "Success"
+msgstr "Éxito"
+
+#: overpi.cpp:451
+msgid "Profile %s applied permanently.\n\n"
+"All settings (CPU, GPU, Overvoltage) have been saved.\n"
+"Backup saved at: %s\n\n"
+"Do you want to reboot now to apply all changes?"
+msgstr "Perfil %s aplicado permanentemente.\n\n"
+"Todos los ajustes (CPU, GPU, Overvoltage) se han guardado.\n"
+"Backup guardado en: %s\n\n"
+"¿Quieres reiniciar ahora para aplicar los cambios completos?"
+
+#: overpi.cpp:461
+msgid "Could not modify config.txt: %s"
+msgstr "No se pudo modificar config.txt: %s"
+
+#: overpi.cpp:470
+msgid "Error getting throttling"
+msgstr "Error al obtener throttling"
+
+#: overpi.cpp:489
+msgid "No throttling"
+msgstr "Sin throttling"
+
+#: overpi.cpp:495
+msgid "Hexadecimal value: %s"
+msgstr "Valor hexadecimal: %s"
+
+#: overpi.cpp:520
+msgid "Error: This application only works on Raspberry Pi"
+msgstr "Error: Esta aplicación solo funciona en Raspberry Pi"
+
+#: overpi.cpp:526
+msgid "Error: Run with: sudo %s"
+msgstr "Error: Ejecuta con: sudo %s"

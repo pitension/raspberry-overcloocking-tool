@@ -25,8 +25,21 @@ sudo apt-get install libgtkmm-3.0-dev
 # Compilar
 make
 
+# Compilar traducciones
+make translations
+
+# Instalar
+sudo make install
+
 # Ejecutar (necesita root)
 sudo ./overpi
+
+# Ejecutar en español
+sudo LANG=es.UTF-8 overpi
+
+# Ejecutar en inglés
+sudo LANG=en.UTF-8 overpi
+sudo ./overpi  # por defecto inglés
 
 Uso
 Selecciona un perfil de la lista desplegable
