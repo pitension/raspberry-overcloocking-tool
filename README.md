@@ -35,10 +35,10 @@ sudo make install
 sudo ./overpi
 
 # Ejecutar en español
-sudo LANG=es.UTF-8 overpi
+sudo LANG=es.UTF-8 ./overpi
 
 # Ejecutar en inglés
-sudo LANG=en.UTF-8 overpi
+sudo LANG=en.UTF-8 ./overpi
 sudo ./overpi  # por defecto inglés
 
 Uso
